@@ -18,3 +18,7 @@ function showTime() {
 
 showTime();              // 처음 한 번 실행
 setInterval(showTime, 1000); // 1초마다 갱신
+
+function toggleDarkMode(){
+    document.body.classList.toggle("dark-mode");
+}

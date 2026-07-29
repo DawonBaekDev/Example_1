@@ -36,3 +36,17 @@ button{
 button:hover{
     background:#1565C0;
 }
+
+.dark-mode{
+    background-color:#222;
+    color:white;
+}
+
+.dark-mode .card{
+    background:#333;
+    color:white;
+}
+
+.dark-mode header{
+    background:#111;
+}
