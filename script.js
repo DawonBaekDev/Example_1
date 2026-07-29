@@ -8,4 +8,4 @@ function changeMessage(){
 
 const now = new Date();
 
-document.getElementById("msg").innerHTML = now.toLocaleString();
+document.getElementById("date").innerHTML = now.toLocaleString();
